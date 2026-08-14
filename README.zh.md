@@ -19,19 +19,13 @@
 
 ## 安装
 
-### 方式一 —— npm 安装
-
-```bash
-dsh plugin --profile web add @auranlu/dsh-client-ui-monitor
-```
-
-### 方式二 —— GitHub 安装
+### 方式一 —— GitHub 安装
 
 ```bash
 dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor
 ```
 
-**方式一或方式二完成后**，还需注册插件并重启：
+**安装完成后**，还需注册插件并重启：
 
 编辑 `~/.dsh/profiles/web/cordis.patch.yml`，在顶层数组中加入：
 
@@ -43,11 +37,11 @@ dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor
 
 然后重启服务（`dsh web`），展开左侧栏即可看到仪表盘。
 
-### 方式三 —— 一句话安装（发给大模型智能体自动安装）
+### 方式二 —— 一句话安装（发给大模型智能体自动安装）
 
 把下面整段提示词复制给一个能操作你机器的编程智能体即可：
 
-> 在 DeepSeek Harness 的 web profile 中安装客户端插件 `@auranlu/dsh-client-ui-monitor`：先执行 `dsh plugin --profile web add @auranlu/dsh-client-ui-monitor`；若失败则执行 `dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor`。然后在 `~/.dsh/profiles/web/cordis.patch.yml` 的顶层数组中追加：
+> 从 GitHub 安装 DeepSeek Harness 客户端插件：执行 `dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor`，然后在 `~/.dsh/profiles/web/cordis.patch.yml` 的顶层数组中追加：
 >
 > ```yaml
 > - insert:
