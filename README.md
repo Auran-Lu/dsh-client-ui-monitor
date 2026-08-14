@@ -45,7 +45,7 @@ Then restart the server (`dsh web`) and expand the left sidebar.
 
 Copy the whole block below to a coding agent that has shell access to the machine:
 
-> Install the DeepSeek Harness client plugin from GitHub: run `dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor`, then append this entry to the top-level array of `~/.dsh/profiles/web/cordis.patch.yml`:
+> Install the DeepSeek Harness client plugin from github.com/Auran-Lu/dsh-client-ui-monitor: run `dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor`, then append this entry to the top-level array of `~/.dsh/profiles/web/cordis.patch.yml`:
 >
 > ```yaml
 > - insert:

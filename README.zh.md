@@ -41,7 +41,7 @@ dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor
 
 把下面整段提示词复制给一个能操作你机器的编程智能体即可：
 
-> 从 GitHub 安装 DeepSeek Harness 客户端插件：执行 `dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor`，然后在 `~/.dsh/profiles/web/cordis.patch.yml` 的顶层数组中追加：
+> 从 github.com/Auran-Lu/dsh-client-ui-monitor 安装 DeepSeek Harness 客户端插件：执行 `dsh plugin --profile web add github:Auran-Lu/dsh-client-ui-monitor`，然后在 `~/.dsh/profiles/web/cordis.patch.yml` 的顶层数组中追加：
 >
 > ```yaml
 > - insert:
