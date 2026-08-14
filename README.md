@@ -1,8 +1,12 @@
+<img width="313" height="179" alt="image" src="https://github.com/user-attachments/assets/79eb4c3d-718b-4e53-990d-3cb491845f50" /><br>
+<img width="311" height="175" alt="image" src="https://github.com/user-attachments/assets/bc01df93-9c41-462e-bd4d-b484b1b29d84" />
+
 # @auranlu/dsh-client-ui-monitor
 
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web plugin that pins a usage dashboard to the bottom-left of the sidebar.
 
 [简体中文](README.zh.md)
+
 
 It shows, live for the current session:
 
