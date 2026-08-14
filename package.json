@@ -1,0 +1,38 @@
+{
+  "name": "@auranlu/dsh-client-ui-monitor",
+  "description": "DeepSeek Harness sidebar usage dashboard: session token usage, estimated cost (CNY/USD), and DeepSeek API balance",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "author": "auranlu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auran-Lu/dsh-client-ui-monitor.git"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "token-meter",
+    "balance"
+  ],
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md",
+    "README.zh.md"
+  ]
+}
